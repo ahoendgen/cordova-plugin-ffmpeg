@@ -30,7 +30,7 @@
   </platform>
 
   <platform name="ios">
-    
+
     <config-file target="config.xml" parent="/widget">
       <feature name="FFMpeg">
         <param name="ios-package" value="HWPFFMpeg" />
@@ -45,7 +45,7 @@
           <source url="https://github.com/CocoaPods/Specs.git"/>
       </config>
       <pods use-frameworks="true">
-          <pod name="mobile-ffmpeg-full" spec="~> 4.2.2" />
+          <pod name="mobile-ffmpeg-full" spec="~> 4.4.4" />
       </pods>
     </podspec>
   </platform>
